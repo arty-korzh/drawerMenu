@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC36DAB251F737F00336F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DAA251F737F00336F8B /* AppDelegate.swift */; };
+		CEC36DAD251F737F00336F8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DAC251F737F00336F8B /* SceneDelegate.swift */; };
+		CEC36DAF251F737F00336F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DAE251F737F00336F8B /* ViewController.swift */; };
+		CEC36DB2251F737F00336F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC36DB0251F737F00336F8B /* Main.storyboard */; };
+		CEC36DB4251F738100336F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC36DB3251F738100336F8B /* Assets.xcassets */; };
+		CEC36DB7251F738100336F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC36DB5251F738100336F8B /* LaunchScreen.storyboard */; };
+		CEC36DDA251F7B6200336F8B /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DD8251F7B6200336F8B /* DrawerMenuViewController.swift */; };
+		CEC36DDB251F7B6200336F8B /* DrawerMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC36DD9251F7B6200336F8B /* DrawerMenuViewController.xib */; };
+		CEC36DE0251F7C0300336F8B /* DrawerTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DDF251F7C0300336F8B /* DrawerTransitionManager.swift */; };
+		CEC36DE3251F7C8700336F8B /* DrawerPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DE2251F7C8700336F8B /* DrawerPresentationController.swift */; };
+		CEC36DE6251F7D1600336F8B /* DrawerSlideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DE5251F7D1600336F8B /* DrawerSlideAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEC36DA7251F737F00336F8B /* Drawer Menu App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawer Menu App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC36DAA251F737F00336F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEC36DAC251F737F00336F8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEC36DAE251F737F00336F8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC36DB1251F737F00336F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC36DB3251F738100336F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC36DB6251F738100336F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEC36DB8251F738100336F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC36DD8251F7B6200336F8B /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
+		CEC36DD9251F7B6200336F8B /* DrawerMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawerMenuViewController.xib; sourceTree = "<group>"; };
+		CEC36DDF251F7C0300336F8B /* DrawerTransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerTransitionManager.swift; sourceTree = "<group>"; };
+		CEC36DE2251F7C8700336F8B /* DrawerPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerPresentationController.swift; sourceTree = "<group>"; };
+		CEC36DE5251F7D1600336F8B /* DrawerSlideAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerSlideAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC36DA4251F737F00336F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC36D9E251F737F00336F8B = {
+			isa = PBXGroup;
+			children = (
+				CEC36DA9251F737F00336F8B /* Drawer Menu App */,
+				CEC36DA8251F737F00336F8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC36DA8251F737F00336F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC36DA7251F737F00336F8B /* Drawer Menu App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC36DA9251F737F00336F8B /* Drawer Menu App */ = {
+			isa = PBXGroup;
+			children = (
+				CEC36DD6251F7B2400336F8B /* DrawerMenu */,
+				CEC36DAA251F737F00336F8B /* AppDelegate.swift */,
+				CEC36DAC251F737F00336F8B /* SceneDelegate.swift */,
+				CEC36DAE251F737F00336F8B /* ViewController.swift */,
+				CEC36DB0251F737F00336F8B /* Main.storyboard */,
+				CEC36DB3251F738100336F8B /* Assets.xcassets */,
+				CEC36DB5251F738100336F8B /* LaunchScreen.storyboard */,
+				CEC36DB8251F738100336F8B /* Info.plist */,
+			);
+			path = "Drawer Menu App";
+			sourceTree = "<group>";
+		};
+		CEC36DD6251F7B2400336F8B /* DrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CEC36DDE251F7BEF00336F8B /* DrawerTransitionManager */,
+				CEC36DD7251F7B2900336F8B /* DrawerMenuController */,
+			);
+			path = DrawerMenu;
+			sourceTree = "<group>";
+		};
+		CEC36DD7251F7B2900336F8B /* DrawerMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				CEC36DD8251F7B6200336F8B /* DrawerMenuViewController.swift */,
+				CEC36DD9251F7B6200336F8B /* DrawerMenuViewController.xib */,
+			);
+			path = DrawerMenuController;
+			sourceTree = "<group>";
+		};
+		CEC36DDE251F7BEF00336F8B /* DrawerTransitionManager */ = {
+			isa = PBXGroup;
+			children = (
+				CEC36DDF251F7C0300336F8B /* DrawerTransitionManager.swift */,
+				CEC36DE2251F7C8700336F8B /* DrawerPresentationController.swift */,
+				CEC36DE5251F7D1600336F8B /* DrawerSlideAnimation.swift */,
+			);
+			path = DrawerTransitionManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC36DA6251F737F00336F8B /* Drawer Menu App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC36DBB251F738100336F8B /* Build configuration list for PBXNativeTarget "Drawer Menu App" */;
+			buildPhases = (
+				CEC36DA3251F737F00336F8B /* Sources */,
+				CEC36DA4251F737F00336F8B /* Frameworks */,
+				CEC36DA5251F737F00336F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawer Menu App";
+			productName = "Drawer Menu App";
+			productReference = CEC36DA7251F737F00336F8B /* Drawer Menu App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC36D9F251F737F00336F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CEC36DA6251F737F00336F8B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = CEC36DA2251F737F00336F8B /* Build configuration list for PBXProject "Drawer Menu App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC36D9E251F737F00336F8B;
+			productRefGroup = CEC36DA8251F737F00336F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC36DA6251F737F00336F8B /* Drawer Menu App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC36DA5251F737F00336F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC36DB7251F738100336F8B /* LaunchScreen.storyboard in Resources */,
+				CEC36DB4251F738100336F8B /* Assets.xcassets in Resources */,
+				CEC36DDB251F7B6200336F8B /* DrawerMenuViewController.xib in Resources */,
+				CEC36DB2251F737F00336F8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC36DA3251F737F00336F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC36DAF251F737F00336F8B /* ViewController.swift in Sources */,
+				CEC36DAB251F737F00336F8B /* AppDelegate.swift in Sources */,
+				CEC36DDA251F7B6200336F8B /* DrawerMenuViewController.swift in Sources */,
+				CEC36DAD251F737F00336F8B /* SceneDelegate.swift in Sources */,
+				CEC36DE3251F7C8700336F8B /* DrawerPresentationController.swift in Sources */,
+				CEC36DE0251F7C0300336F8B /* DrawerTransitionManager.swift in Sources */,
+				CEC36DE6251F7D1600336F8B /* DrawerSlideAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEC36DB0251F737F00336F8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC36DB1251F737F00336F8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC36DB5251F738100336F8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC36DB6251F738100336F8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC36DB9251F738100336F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEC36DBA251F738100336F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC36DBC251F738100336F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K9JWHDU69;
+				INFOPLIST_FILE = "Drawer Menu App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artykorzh.Drawer-Menu-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC36DBD251F738100336F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K9JWHDU69;
+				INFOPLIST_FILE = "Drawer Menu App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artykorzh.Drawer-Menu-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC36DA2251F737F00336F8B /* Build configuration list for PBXProject "Drawer Menu App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC36DB9251F738100336F8B /* Debug */,
+				CEC36DBA251F738100336F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC36DBB251F738100336F8B /* Build configuration list for PBXNativeTarget "Drawer Menu App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC36DBC251F738100336F8B /* Debug */,
+				CEC36DBD251F738100336F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC36D9F251F737F00336F8B /* Project object */;
+}
