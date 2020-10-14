@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEACCA2E2537474B003F6B23 /* DrawerProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACCA2C2537474B003F6B23 /* DrawerProfileCell.swift */; };
+		CEACCA2F2537474B003F6B23 /* DrawerProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEACCA2D2537474B003F6B23 /* DrawerProfileCell.xib */; };
+		CEACCA34253747E2003F6B23 /* DrawerMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACCA32253747E2003F6B23 /* DrawerMenuCell.swift */; };
+		CEACCA35253747E2003F6B23 /* DrawerMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEACCA33253747E2003F6B23 /* DrawerMenuCell.xib */; };
+		CEACCA3A25374BFE003F6B23 /* AppScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACCA3825374BFE003F6B23 /* AppScreenViewController.swift */; };
+		CEACCA3B25374BFE003F6B23 /* AppScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEACCA3925374BFE003F6B23 /* AppScreenViewController.xib */; };
 		CEC36DAB251F737F00336F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DAA251F737F00336F8B /* AppDelegate.swift */; };
 		CEC36DAD251F737F00336F8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DAC251F737F00336F8B /* SceneDelegate.swift */; };
 		CEC36DAF251F737F00336F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC36DAE251F737F00336F8B /* ViewController.swift */; };
@@ -21,6 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEACCA2C2537474B003F6B23 /* DrawerProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerProfileCell.swift; sourceTree = "<group>"; };
+		CEACCA2D2537474B003F6B23 /* DrawerProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawerProfileCell.xib; sourceTree = "<group>"; };
+		CEACCA32253747E2003F6B23 /* DrawerMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuCell.swift; sourceTree = "<group>"; };
+		CEACCA33253747E2003F6B23 /* DrawerMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawerMenuCell.xib; sourceTree = "<group>"; };
+		CEACCA3825374BFE003F6B23 /* AppScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreenViewController.swift; sourceTree = "<group>"; };
+		CEACCA3925374BFE003F6B23 /* AppScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppScreenViewController.xib; sourceTree = "<group>"; };
 		CEC36DA7251F737F00336F8B /* Drawer Menu App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawer Menu App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC36DAA251F737F00336F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC36DAC251F737F00336F8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +59,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEACCA2A2537472C003F6B23 /* DrawerCells */ = {
+			isa = PBXGroup;
+			children = (
+				CEACCA31253747D2003F6B23 /* MenuCell */,
+				CEACCA2B2537472F003F6B23 /* ProfileCell */,
+			);
+			path = DrawerCells;
+			sourceTree = "<group>";
+		};
+		CEACCA2B2537472F003F6B23 /* ProfileCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEACCA2C2537474B003F6B23 /* DrawerProfileCell.swift */,
+				CEACCA2D2537474B003F6B23 /* DrawerProfileCell.xib */,
+			);
+			path = ProfileCell;
+			sourceTree = "<group>";
+		};
+		CEACCA31253747D2003F6B23 /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEACCA32253747E2003F6B23 /* DrawerMenuCell.swift */,
+				CEACCA33253747E2003F6B23 /* DrawerMenuCell.xib */,
+			);
+			path = MenuCell;
+			sourceTree = "<group>";
+		};
+		CEACCA3725374BE6003F6B23 /* AppScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEACCA3825374BFE003F6B23 /* AppScreenViewController.swift */,
+				CEACCA3925374BFE003F6B23 /* AppScreenViewController.xib */,
+			);
+			path = AppScreen;
+			sourceTree = "<group>";
+		};
 		CEC36D9E251F737F00336F8B = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +114,7 @@
 		CEC36DA9251F737F00336F8B /* Drawer Menu App */ = {
 			isa = PBXGroup;
 			children = (
+				CEACCA3725374BE6003F6B23 /* AppScreen */,
 				CEC36DD6251F7B2400336F8B /* DrawerMenu */,
 				CEC36DAA251F737F00336F8B /* AppDelegate.swift */,
 				CEC36DAC251F737F00336F8B /* SceneDelegate.swift */,
@@ -81,6 +130,7 @@
 		CEC36DD6251F7B2400336F8B /* DrawerMenu */ = {
 			isa = PBXGroup;
 			children = (
+				CEACCA2A2537472C003F6B23 /* DrawerCells */,
 				CEC36DDE251F7BEF00336F8B /* DrawerTransitionManager */,
 				CEC36DD7251F7B2900336F8B /* DrawerMenuController */,
 			);
@@ -163,7 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEACCA3B25374BFE003F6B23 /* AppScreenViewController.xib in Resources */,
 				CEC36DB7251F738100336F8B /* LaunchScreen.storyboard in Resources */,
+				CEACCA35253747E2003F6B23 /* DrawerMenuCell.xib in Resources */,
+				CEACCA2F2537474B003F6B23 /* DrawerProfileCell.xib in Resources */,
 				CEC36DB4251F738100336F8B /* Assets.xcassets in Resources */,
 				CEC36DDB251F7B6200336F8B /* DrawerMenuViewController.xib in Resources */,
 				CEC36DB2251F737F00336F8B /* Main.storyboard in Resources */,
@@ -177,12 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEACCA2E2537474B003F6B23 /* DrawerProfileCell.swift in Sources */,
 				CEC36DAF251F737F00336F8B /* ViewController.swift in Sources */,
+				CEACCA34253747E2003F6B23 /* DrawerMenuCell.swift in Sources */,
 				CEC36DAB251F737F00336F8B /* AppDelegate.swift in Sources */,
 				CEC36DDA251F7B6200336F8B /* DrawerMenuViewController.swift in Sources */,
 				CEC36DAD251F737F00336F8B /* SceneDelegate.swift in Sources */,
 				CEC36DE3251F7C8700336F8B /* DrawerPresentationController.swift in Sources */,
 				CEC36DE0251F7C0300336F8B /* DrawerTransitionManager.swift in Sources */,
+				CEACCA3A25374BFE003F6B23 /* AppScreenViewController.swift in Sources */,
 				CEC36DE6251F7D1600336F8B /* DrawerSlideAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

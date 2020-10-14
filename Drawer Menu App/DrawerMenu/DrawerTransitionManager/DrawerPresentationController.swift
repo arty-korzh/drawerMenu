@@ -34,11 +34,49 @@ class DrawerPresentationController: UIPresentationController {
 
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissPresentedController))
         view.addGestureRecognizer(tapRecognizer)
+
+        let panRecognizer = UIPanGestureRecognizer(target: self, action: #selector(panGestureHandler(recognizer:)))
+        view.addGestureRecognizer(panRecognizer)
         return view
     }()
 
     @objc private func dismissPresentedController() {
         presentedViewController.dismiss(animated: true)
+    }
+
+    @objc private func panGestureHandler(recognizer: UIPanGestureRecognizer) {
+
+        guard let presentedView = presentedView else {
+            return
+        }
+
+        switch recognizer.state {
+        case .changed:
+            let translation = recognizer.translation(in: dimmingView)
+            guard translation.x < 0 else {
+                return
+            }
+            presentedView.frame.origin = CGPoint(x: translation.x, y: 0)
+        case .ended:
+            if presentedView.frame.maxX < 100 {
+                dismissPresentedController()
+                return
+            }
+            let velocity = recognizer.velocity(in: dimmingView)
+            if abs(velocity.x) > 1000 {
+                dismissPresentedController()
+            } else {
+                UIView.animate(withDuration: 0.2) {
+                    presentedView.frame.origin = .zero
+                }
+            }
+        default:
+            break
+        }
+
+
+
+
     }
 
     override func presentationTransitionWillBegin() {

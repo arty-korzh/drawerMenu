@@ -28,15 +28,27 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGA-jp-vpG">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="E1p-tj-ipH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="40J-Sd-caW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lGA-jp-vpG" secondAttribute="trailing" id="B7K-ya-fR9"/>
                             <constraint firstItem="E1p-tj-ipH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GvG-Ef-GZX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lGA-jp-vpG" secondAttribute="bottom" id="Xtz-hU-svC"/>
+                            <constraint firstItem="lGA-jp-vpG" firstAttribute="top" secondItem="E1p-tj-ipH" secondAttribute="bottom" id="ge5-CT-5kc"/>
+                            <constraint firstItem="lGA-jp-vpG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="leK-uP-sfs"/>
                             <constraint firstItem="E1p-tj-ipH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uqP-Vv-1rC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="lGA-jp-vpG" id="Ly9-BS-MWE"/>
+                        <outlet property="navigationBar" destination="E1p-tj-ipH" id="gdx-mE-TWb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
